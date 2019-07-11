@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "338691602757",
+    "firebase_url": "https://cloudfirestoreok.firebaseio.com",
+    "project_id": "cloudfirestoreok",
+    "storage_bucket": "cloudfirestoreok.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338691602757:android:75a90caeb41829f6",
+        "android_client_info": {
+          "package_name": "com.example.borisvillalta.cloudfirestoreok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338691602757-9liu5rq52so4dv5tdt98rem6grm0jei4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAis2y7hehmCJVCP6Ni6dJViSFTV7G8pz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338691602757-9liu5rq52so4dv5tdt98rem6grm0jei4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivImagen"
+        android:layout_width="100dp"
+        android:layout_height="170dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+            android:id="@+id/tvPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:id="@+id/nCounter"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                app:backGroundColor="@color/colorCounter"
+                app:textColor="#fff"></com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+            <Button
+                android:id="@+id/bAnadir"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:elevation="5dp"
+                android:text="Agregar al carrito"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>
